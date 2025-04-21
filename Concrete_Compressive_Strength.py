@@ -82,7 +82,7 @@ joblib.dump(scaler, "scaler.pkl")  # Save the scaler for deployment
 # ----------------------------------------
 # streamlit Predict
 def predict():
-    st.title('🎓Concret Strength Prediction Model')
+    st.title('🧱 Concret Strength Prediction Model')
     st.markdown("🔢 Enter **numeric, comma-separated** values matching the model's features.")
     st.caption("You need to enter **exactly 8 values**, in the same order used in training.")
     input_feature = st.text_input("📥 Input Features:")
