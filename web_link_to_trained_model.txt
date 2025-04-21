@@ -1,0 +1,2 @@
+github: https://github.com/thomaskitaba/REGRESSION_Concret_Strength_Prediction_Model/blob/main/Concrete_Compressive_Strength.py
+

@@ -27,7 +27,7 @@ import shap
 
 # Visualization
 import matplotlib
-matplotlib.use('TkAgg')  # ✅ Added for better plotting outside notebooks
+matplotlib.use('Agg')  # ✅ Added for better plotting outside notebooks
 import matplotlib.pyplot as plt
 
 # Suppress warnings
@@ -165,7 +165,7 @@ if __name__ == "__main__":
     
     for name, model in trained_models.items():
         evaluate_model(model, name)
-        # lime_explanation(model, name)
-        # shap_explanation(model, name)
+        lime_explanation(model, name)
+        shap_explanation(model, name)
 
     predict()
